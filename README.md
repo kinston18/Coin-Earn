@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Problem Statement
+You need to create a web application for students where they can create profiles, earn coins based on profile building, and apply for internships through the platform using those coins.
+Quick Task:
+1. Authentication for Students
+2. Registration through Email with OTP; no password required.
+3. Create a Profile and earn coins related to fields.
+4. While filling in the input, the user can see the total coins earned (real-time coins) in the header.
+5. Fetch 100 internships from the Internshala API/Web Scraping (find some way to obtain the list of internships), or you can use any other platform if Internshala is not working.
+6. Job/Internship Details to display on the card:
+  1. Role Name
+  2. Company Name
+  3. Company Logo
+  4. CTC/Stipend
+  5. Experience Required
+  6. Button - Apply using 50 coins
+7. Students will spend 50 coins on every application.
+8. When the user clicks on apply, you have to check if the user has enough coins or not.
+  1. If there are enough coins:
+    1. Applied Successfully
+  2. Show a popup indicating insufficient coins to apply.
+    1. Oops! You don't have sufficient balance
+9. List of all applied internships.
+10. Display all the internships users applied for with coins spent.
+11. Logout.
